@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkfood_delivery_web_app=self.webpackChunkfood_delivery_web_app||[]).push([[953],{953:function(e,n,r){r.r(n),r.d(n,{default:function(){return c}});var t=r(184);var c=function(){return(0,t.jsx)(t.Fragment,{children:(0,t.jsx)("h1",{children:"Welcome to shopping cart"})})}}}]);
-//# sourceMappingURL=953.51681c3f.chunk.js.map
