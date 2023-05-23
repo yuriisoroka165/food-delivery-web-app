@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 export const ItemContainer = styled.div`
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 250px;
     height: 200;
     padding: 15px;
     border: 1px solid ${({ theme }) => `${theme.colors.globalWhiteColor}`};
@@ -17,8 +17,8 @@ export const ImageContainer = styled.div`
 
 export const ItemImage = styled.img`
     margin-bottom: 10px;
-    width: 290px;
-    height: 220px;
+    width: 200px;
+    height: 150px;
     border: 1px solid ${({ theme }) => `${theme.colors.globalWhiteColor}`};
     border-radius: 10px;
 `;

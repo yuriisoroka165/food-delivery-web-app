@@ -1,10 +1,9 @@
 // import { useLogOutRedirect } from "hooks";
+import OrderForm from "components/OrderFrom";
 
 export default function ShoppingCart() {
     // useLogOutRedirect();
     return (
-        <>
-            <h1>Welcome to shopping cart</h1>
-        </>
+        <OrderForm></OrderForm>
     );
 }

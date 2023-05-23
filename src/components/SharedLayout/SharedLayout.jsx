@@ -2,7 +2,6 @@ import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
 
 import AppHeader from "../AppHeader";
-import AppFooter from "../AppFooter/AppFooter";
 import { Container } from "./SharedLayout.styled";
 
 export default function SharedLayout() {
@@ -16,7 +15,6 @@ export default function SharedLayout() {
                     </Suspense>
                 </main>
             </Container>
-            <AppFooter />
         </>
     );
 }
