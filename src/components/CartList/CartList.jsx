@@ -1,7 +1,7 @@
-import ProductsListItem from "components/ProductsListItem";
-import { ProductsListContainer } from "./ProductsList.styled";
+import { List } from "./CartList.styled";
+import CartListItem from "components/CartListItem";
 
-export default function ProductsList() {
+export default function CartList() {
     const products = [
         {
             id: 1,
@@ -46,12 +46,12 @@ export default function ProductsList() {
             price: "333",
         },
     ];
-
     return (
-        <ProductsListContainer>
+        <List>
+
             {products.map(product => {
-                return <ProductsListItem key={product.id} productData={product} />;
+                return <CartListItem key={product.id} productData={product} />;
             })}
-        </ProductsListContainer>
+        </List>
     );
 }

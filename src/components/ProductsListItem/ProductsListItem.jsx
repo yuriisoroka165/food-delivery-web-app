@@ -6,14 +6,14 @@ import {
     ItemButton,
 } from "./ProductsListItem.styled";
 
-export default function ProductsListItem({ data }) {
-    const { name, imageLink } = data;
-    console.log(name);
+export default function ProductsListItem({ productData }) {
+    const { name, imageLink, price } = productData;
     return (
         <ItemContainer>
             <ImageContainer>
                 <ItemImage src={imageLink} />
                 <ItemTitle>{name}</ItemTitle>
+                <ItemTitle>Price: {price}</ItemTitle>
             </ImageContainer>
             <ItemButton>add to Cart</ItemButton>
         </ItemContainer>

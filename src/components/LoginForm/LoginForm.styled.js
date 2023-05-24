@@ -11,7 +11,6 @@ export const LoginFormLabel = styled.label`
     flex-direction: column;
     gap: 10px;
     font-weight: 500;
-    /* text-transform: uppercase; */
     color: ${({ theme }) => theme.colors.globalWhiteColor};
 `;
 
